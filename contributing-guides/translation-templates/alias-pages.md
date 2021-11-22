@@ -7,6 +7,8 @@ page template decided upon in
 The templates can be changed when necessary.
 
 [en](#en) •
+[ar](#ar) •
+[bn](#bn) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -19,6 +21,7 @@ The templates can be changed when necessary.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -27,10 +30,12 @@ The templates can be changed when necessary.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
+[uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -48,12 +53,30 @@ The templates can be changed when necessary.
 ```
 
 ---
+### ar
+
+```markdown
+# example
+
+> هذا الأمر هو اسم مستعار لـ `example`.
+
+- إعرض التوثيقات للأمر الأصلي:
+
+`tldr example`
+```
+
+---
+### bn
+
+Not translated yet.
+
+---
 ### bs
 
 ```markdown
 # example
 
-> Ova komanda je alijas za `example`.
+> Ova komanda je pseudonim za `example`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
@@ -164,7 +187,15 @@ Not translated yet.
 ---
 ### ko
 
-Not translated yet.
+```markdown
+# example
+
+> 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
+
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
+
+`tldr example`
+```
 
 ---
 ### ml
@@ -175,6 +206,19 @@ Not translated yet.
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
 `tldr example`
 ```
@@ -211,7 +255,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
@@ -260,6 +304,11 @@ Not translated yet.
 Not translated yet.
 
 ---
+### sr
+
+Not translated yet.
+
+---
 ### sv
 
 ```markdown
@@ -302,6 +351,19 @@ Not translated yet.
 ### tr
 
 Not translated yet.
+
+---
+### uk
+
+```markdown
+# example
+
+> Ця команда є псевдонімом для `example`.
+
+- Дивись документацію для оригінальної команди:
+
+`tldr example`
+```
 
 ---
 ### zh

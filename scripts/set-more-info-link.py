@@ -9,12 +9,14 @@ import sys
 
 labels = {
     "en": "More information:",
+    "ar": "لمزيد من التفاصيل:",
+    "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
     "es": "Más información:",
     "fa": "اطلاعات بیشتر:",
-    "fr": "Plus d'informations\xa0:",
+    "fr": "Plus d'informations :",
     "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
     "id": "Informasi lebih lanjut:",
@@ -22,6 +24,7 @@ labels = {
     "ja": "詳しくはこちら:",
     "ko": "더 많은 정보:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
+    "ne": "थप जानकारी:",
     "nl": "Meer informatie:",
     "no": "Mer informasjon:",
     "pl": "Więcej informacji:",
@@ -29,10 +32,12 @@ labels = {
     "pt_PT": "Mais informações:",
     "ro": "Mai multe informații:",
     "ru": "Больше информации:",
+    "sr": "Više informacija na:",
     "sv": "Mer information:",
-    "ta": "மேலும் தகவல்:",
+    "ta": "மேலும் விவரத்திற்கு:",
     "th": "ดูเพิ่มเติม:",
-    "tr": "Daha fazla bilgi için:",
+    "tr": "Daha fazla bilgi:",
+    "uk": "Більше інформації:",
     "zh_TW": "更多資訊：",
     "zh": "更多信息：",
 }
@@ -78,7 +83,11 @@ def set_link(file, link):
         locale = "en"
 
     # build new line
-    if locale == "zh" or locale == "zh_TW":
+    if locale == "hi":
+        new_line = f"> {labels[locale]} <{link}>।\n"
+    elif locale == "ja":
+        new_line = f"> {labels[locale]} <{link}>\n"
+    elif locale == "zh" or locale == "zh_TW":
         new_line = f"> {labels[locale]}<{link}>.\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"
