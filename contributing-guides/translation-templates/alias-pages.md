@@ -10,7 +10,7 @@ The templates can be changed when necessary.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
-[ca](#ca) • 
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -373,7 +373,15 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr example`
+```
 
 ---
 ### uk
@@ -414,7 +422,7 @@ Not translated yet.
 
 > 這是 `example` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr example`
 ```
